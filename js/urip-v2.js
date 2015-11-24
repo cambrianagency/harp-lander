@@ -189,8 +189,7 @@ $(document).ready(function(){
 	====================================*/
 	$('.the-subscribe-form').ajaxChimp({
 		callback: mailchimpCallback,
-	    url: 'http://worksofwisnu.us6.list-manage.com/subscribe/post?u=b57b4e6ae38c92ac22d92a234&amp;id=17754c49aa'
-	    // Replace the URL above with your mailchimp URL (put your URL inside '').
+	    url: 'http://harplocal.us12.list-manage.com/subscribe/post?u=364d9aa8285257172f3b438c0&amp;id=17ee5856e0'
 	});
 
 	// callback function when the form submitted, show the notification box
@@ -501,6 +500,3 @@ $(document).ready(function(){
 	});
 
 });
-
-
-
