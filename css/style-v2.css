@@ -244,7 +244,7 @@ p.section-title:after {
 }
 
 small {
-	
+
 }
 
 b, strong {
@@ -1525,6 +1525,8 @@ a.overlay-close:hover {
 	cursor: pointer;
 	-webkit-transition: 0.75s;
 	transition: 0.75s;
+	height: 50px;
+	padding-top:13px
 }
 
 #to-top:hover {
@@ -1546,7 +1548,8 @@ header {
 }
 
 .the-origin-header a.logo {
-	display: inline-block;
+	display: block !important;
+	text-align: center;
 	margin-top: -10px;
 }
 

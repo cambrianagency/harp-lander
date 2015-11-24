@@ -717,6 +717,8 @@
 	}
 
 	.the-origin-header a.logo {
+		display: block !important;
+		text-align: center;
 		margin-top: 0;
 	}
 
