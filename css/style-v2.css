@@ -1928,20 +1928,6 @@ a.menu-toggle span {
 	box-shadow: none;
 }
 
-.hero-subscribe-wrapper form .input-group .btn-subscribe:before {
-	position: absolute;
-	top: 11%;
-	left: 130%;
-	height: 100%;
-	color: #fff;
-	content: "\e62a";
-	font-size: 80%;
-	font-family: "Icomoon";
-	line-height: 2.7;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
 .hero-subscribe-wrapper form .input-group .btn-subscribe:hover:before {
 	left: 81%;
 }
