@@ -1570,19 +1570,24 @@ header {
 }
 
 #header-btn {
-	float:right; 
-  	background-color:rgba(255,255,255,0.5); 
+	float:right;
+  	background-color:rgba(255,255,255,0.5);
   	padding: 6px 10px;
 	border-radius: 4px;
 	vertical-align: middle;
 	font-size: .85em;
-	
+	display: none;
+
 /*
 	-webkit-transition: all 0.27s ease-in-out;
 	transition: all 0.27s ease-in-out;
 	-webkit-transform: translateY(-100%);
 	-ms-transform: translateY(-100%);
 	transform: translateY(-100%);*/
+}
+
+.header-stick #header-btn {
+	display: block;
 }
 
 .header-stick {
@@ -2608,7 +2613,7 @@ ul.how-it-works-col li:last-child:hover {
 }
 
 .featurettes-quote-wrapper .vertical-center-content {
-	
+
 }
 
 .featurettes-quote {
