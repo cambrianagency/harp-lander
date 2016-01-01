@@ -1,12 +1,4 @@
-/*
-	Template Name: Urip Landing Page (Responsive Layout)
-	Template URI: http://worksofwisnu.com/theme-preview/urip
-	Description: Modern and Professional HTML Landing Page Template
-	Author: xWisnux (Works of Wisnu)
-	Author URI: http://worksofwisnu.com
-	Version: 2.0
 
-*/
 
 /**
  * 1.0 LARGE DEVICES (large desktops, 1200px and up)
@@ -1053,7 +1045,7 @@
 @media (max-width: 640px) {
 	/* HEADER & HERO SECTION */
 	.hero-subscribe-wrapper form .input-group .btn-subscribe {
-		width: 175px;
+		width: 100%;
 	}
 
 	.layout-with-navbar #hero {
@@ -1272,16 +1264,16 @@
 	}
 
 	.hero-subscribe-wrapper form .input-group input {
-		-webkit-border-radius: 8px 8px 0 0 !important;
-		-moz-border-radius: 8px 8px 0 0 !important;
-		border-radius: 8px 8px 0 0 !important;
+		-webkit-border-radius: 4px 4px 0 0 !important;
+		-moz-border-radius: 4px 4px 0 0 !important;
+		border-radius: 4px 4px 0 0 !important;
 		text-align: center;
 	}
 
 	.hero-subscribe-wrapper form .input-group .btn-subscribe {
-		-webkit-border-radius: 0 0 8px 8px;
-		-moz-border-radius: 0 0 8px 8px;
-		border-radius: 0 0 8px 8px;
+		-webkit-border-radius: 0 0 4px 4px;
+		-moz-border-radius: 0 0 4px 4px;
+		border-radius: 0 0 4px 4px;
 	}
 
 	.hero-form-wrapper {
